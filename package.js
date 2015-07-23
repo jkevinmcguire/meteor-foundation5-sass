@@ -77,7 +77,7 @@ Package.onUse(function (api) {
     "scss/foundation/components/_tables.scss",
     "scss/foundation/components/_tabs.scss",
     "scss/foundation/components/_thumbs.scss",
-    "scss/foundation/components/_toolbar.scss",
+    // "scss/foundation/components/_toolbar.scss",
     "scss/foundation/components/_tooltips.scss",
     "scss/foundation/components/_top-bar.scss",
     "scss/foundation/components/_type.scss",
@@ -86,7 +86,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function(api) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.0', 'METEOR@1.1');
 
   api.use("matthew:foundation5-sass@1.0.0");
   api.use(["fourseven:scss@3.2.0", "tinytest@1.0.0", "test-helpers", "templating"]);
