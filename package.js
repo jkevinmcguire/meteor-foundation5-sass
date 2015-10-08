@@ -1,8 +1,10 @@
 Package.describe({
   summary: "Foundation 5 with Sass support",
   version: "1.0.0",
-  git: "https://github.com/matthewforr/meteor-foundation5-sass.git",
-  name: "matthew:foundation5-sass"
+  // git: "https://github.com/matthewforr/meteor-foundation5-sass.git",
+  git: "https://github.com/jkevinmcguire/meteor-foundation5-sass.git",
+  // name: "matthew:foundation5-sass"
+  name: "kevin:foundation5-sass"
 });
 
 Package.onUse(function (api) {
